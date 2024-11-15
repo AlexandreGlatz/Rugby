@@ -30,6 +30,8 @@
     <ClCompile Include="Plant.cpp" />
     <ClCompile Include="PlantAction.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerAction.cpp" />
+    <ClCompile Include="PlayerCondition.cpp" />
     <ClCompile Include="Projectile.cpp" />
     <ClCompile Include="RugbyScene.cpp" />
     <ClCompile Include="Scene.cpp" />
@@ -51,6 +53,8 @@
     <ClInclude Include="Plant.h" />
     <ClInclude Include="PlantAction.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerAction.h" />
+    <ClInclude Include="PlayerCondition.h" />
     <ClInclude Include="Projectile.h" />
     <ClInclude Include="RugbyScene.h" />
     <ClInclude Include="Scene.h" />
