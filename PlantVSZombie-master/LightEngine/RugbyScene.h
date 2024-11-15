@@ -3,6 +3,7 @@
 #include "Player.h"
 #include "Scene.h"
 #include "array"
+#include "TouchdownArea.h"
 #include <list>
 
 namespace sf
@@ -12,10 +13,10 @@ namespace sf
 
 struct AABB1
 {
-    int xMin;
-    int yMin;
-    int xMax;
-    int yMax;
+    float xMin;
+    float yMin;
+    float xMax;
+    float yMax;
 };
 
 
@@ -34,8 +35,9 @@ public:
     std::array<Player*, 5> m_team2;
     Ball* m_ball;
 
-    int mLaneZombieCount[3] = { 0, 0, 0 };
+    int mLanePlayerCount[3] = { 0, 0, 0 };
     AABB1 mAreas[3];
+    AABB1 mTouchDownAreas[2];
 
 private:
     int GetClickedArea(int x, int y) const;
@@ -45,4 +47,3 @@ public:
     void OnEvent(const sf::Event& event) override;
     void OnUpdate() override;
 };
-

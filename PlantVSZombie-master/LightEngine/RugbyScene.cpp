@@ -6,7 +6,6 @@ void RugbyScene::OnInitialize()
 {
 	int width = GetWindowWidth();
 	int height = GetWindowHeight();
-
 	//GameManager::clear(sf::Color::Green);
 
 	float playerRadius = 50.f;
@@ -26,22 +25,36 @@ void RugbyScene::OnInitialize()
 		m_team1[i] = CreateEntity<Player>(playerRadius, sf::Color::Green);
 		m_team1[i]->SetPosition(startX, startY, 0.5f, 0.5f);
 
-		int xMin = startX + playerHeight;
-		int yMin = startY - playerRadius;
-		int xMax = width;
-		int yMax = startY + playerRadius;
+		float xMin = startX + playerHeight;
+		float yMin = startY - playerRadius;
+		float xMax = width;
+		float yMax = startY + playerRadius;
 
 		mAreas[i] = { xMin, yMin, xMax, yMax };
 
 		startY += playerHeight + spaceBetweenPlayers;
 	}
 
-
+	for (int i = 0; i < 2; i++)
+	{
+		mTouchDownAreas[i] = { 10.0f + (i*1150), 10, (125.0f +(i * 1150)), ((spacing / 2) * 3.75f)};
+	}
 }
 
 void RugbyScene::OnUpdate()
 {
+	for (int i = 0; i < 3; i++)
+	{
+		const AABB1& aabb = mAreas[i];
 
+		Debug::DrawRectangle(aabb.xMin, aabb.yMin, aabb.xMax - aabb.xMin, aabb.yMax - aabb.yMin, sf::Color::Red);
+	}
+	for (int i = 0; i < 2; i++)
+	{
+		const AABB1& aabb = mTouchDownAreas[i];
+
+		Debug::DrawRectangle(aabb.xMin, aabb.yMin, aabb.xMax - aabb.xMin, aabb.yMax - aabb.yMin, sf::Color::Red);
+	}
 }
 
 int RugbyScene::GetClickedArea(int x, int y) const
@@ -75,5 +88,5 @@ void RugbyScene::OnEvent(const sf::Event& event)
 	m_team2->SetPosition(event.mouseButton.x, y, 0.5f, 0.5f);
 	m_team2->SetLane(index);
 
-	mLaneZombieCount[index]++;
+	mLanePlayerCount[index]++;
 }

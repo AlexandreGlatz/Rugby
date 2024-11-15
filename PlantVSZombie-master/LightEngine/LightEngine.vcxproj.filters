@@ -79,6 +79,9 @@
     <ClCompile Include="BallAction.cpp">
       <Filter>RugbyGame\PlayerStateMachine</Filter>
     </ClCompile>
+    <ClCompile Include="TouchDownArea.cpp">
+      <Filter>RugbyGame</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entity.h">
@@ -140,6 +143,9 @@
     </ClInclude>
     <ClInclude Include="BallAction.h">
       <Filter>RugbyGame\PlayerStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchDownArea.h">
+      <Filter>RugbyGame</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
