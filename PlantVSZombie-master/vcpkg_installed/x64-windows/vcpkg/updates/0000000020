@@ -4,7 +4,7 @@ Port-Version: 2
 Depends: libogg, vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 8b73b187980f93813b4ce63be73c9e19befa6bad3df1d68b21524bafe6d9ef97
+Abi: eaed0eda9cad0367a33514138c71809289b4010f4eea06c0776bf677063b8ac4
 Description: Library for manipulating FLAC files
 Default-Features: stack-protector
 Status: install ok installed

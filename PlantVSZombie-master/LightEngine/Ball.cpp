@@ -16,5 +16,4 @@ void Ball::OnUpdate()
 void Ball::Pass(Player* Reciever)
 {
     passed;
-    GoToDirection(Reciever->x, Reciever->y , 16);
 }

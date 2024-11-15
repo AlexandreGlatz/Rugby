@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="BallAction.cpp" />
     <ClCompile Include="Behaviour.cpp" />
     <ClCompile Include="Behaviour.inl" />
     <ClCompile Include="Debug.cpp" />
@@ -42,6 +43,7 @@
   <ItemGroup>
     <ClInclude Include="Action.h" />
     <ClInclude Include="Ball.h" />
+    <ClInclude Include="BallAction.h" />
     <ClInclude Include="Behaviour.h" />
     <ClInclude Include="Condition.h" />
     <ClInclude Include="Debug.h" />
@@ -125,6 +127,7 @@
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg">
     <VcpkgEnableManifest>true</VcpkgEnableManifest>
+    <VcpkgEnabled>true</VcpkgEnabled>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

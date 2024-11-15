@@ -3,6 +3,8 @@
 class Player : public Entity
 {
 public:
-    int x,y;
+	int mLane = -1;
+	void SetLane(int lane) { mLane = lane; }
+	Player(float, sf::Color);
 };
 

@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/bzip2-x64-windows-1.0.8#5-37fb0e75-7b41-4e38-bff6-bb76ea5bc03f",
-  "name": "bzip2:x64-windows@1.0.8#5 814cd9c9188c081de7cba51c0ad506fa66d292ce74df0fe2cfc3e24b225e4af9",
+  "documentNamespace": "https://spdx.org/spdxdocs/bzip2-x64-windows-1.0.8#5-f4585fbb-2b95-4f18-a8b8-fe4666ae5ead",
+  "name": "bzip2:x64-windows@1.0.8#5 b7fd06395fc6d6543fa6040cc666f24c3a907cd6c8c69c21e211f76a43441175",
   "creationInfo": {
     "creators": [
-      "Tool: vcpkg-2024-11-12-eb492805e92a2c14a230f5c3deb3e89f6771c321"
+      "Tool: vcpkg-2024-09-30-ab8988503c7cffabfd440b243a383c0a352a023d"
     ],
-    "created": "2024-11-15T13:53:35Z"
+    "created": "2024-11-15T13:19:03Z"
   },
   "relationships": [
     {
@@ -99,7 +99,7 @@
     {
       "name": "bzip2:x64-windows",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "814cd9c9188c081de7cba51c0ad506fa66d292ce74df0fe2cfc3e24b225e4af9",
+      "versionInfo": "b7fd06395fc6d6543fa6040cc666f24c3a907cd6c8c69c21e211f76a43441175",
       "downloadLocation": "NONE",
       "licenseConcluded": "bzip2-1.0.6",
       "licenseDeclared": "NOASSERTION",
@@ -124,7 +124,7 @@
   ],
   "files": [
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/92e9a8bbf1abbd89872b48ad82fcf75852de1006/bzip2.pc.in",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/92e9a8bbf1abbd89872b48ad82fcf75852de1006/bzip2.pc.in",
       "SPDXID": "SPDXRef-file-0",
       "checksums": [
         {
@@ -136,7 +136,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/92e9a8bbf1abbd89872b48ad82fcf75852de1006/CMakeLists.txt",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/92e9a8bbf1abbd89872b48ad82fcf75852de1006/CMakeLists.txt",
       "SPDXID": "SPDXRef-file-1",
       "checksums": [
         {
@@ -148,7 +148,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/92e9a8bbf1abbd89872b48ad82fcf75852de1006/fix-import-export-macros.patch",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/92e9a8bbf1abbd89872b48ad82fcf75852de1006/fix-import-export-macros.patch",
       "SPDXID": "SPDXRef-file-2",
       "checksums": [
         {
@@ -160,7 +160,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/92e9a8bbf1abbd89872b48ad82fcf75852de1006/portfile.cmake",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/92e9a8bbf1abbd89872b48ad82fcf75852de1006/portfile.cmake",
       "SPDXID": "SPDXRef-file-3",
       "checksums": [
         {
@@ -172,7 +172,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/92e9a8bbf1abbd89872b48ad82fcf75852de1006/usage",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/92e9a8bbf1abbd89872b48ad82fcf75852de1006/usage",
       "SPDXID": "SPDXRef-file-4",
       "checksums": [
         {
@@ -184,7 +184,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/92e9a8bbf1abbd89872b48ad82fcf75852de1006/vcpkg.json",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/92e9a8bbf1abbd89872b48ad82fcf75852de1006/vcpkg.json",
       "SPDXID": "SPDXRef-file-5",
       "checksums": [
         {

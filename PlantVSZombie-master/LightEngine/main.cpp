@@ -14,7 +14,7 @@ int main()
 {
     GameManager* pInstance = GameManager::Get();
 
-	pInstance->CreateWindow(1280, 720, "PVZ");
+	pInstance->CreateWindow(1280, 720, "yippee.mp4", 60, sf::Color::Blue);
 	
 	pInstance->LaunchScene<RugbyScene>();
 

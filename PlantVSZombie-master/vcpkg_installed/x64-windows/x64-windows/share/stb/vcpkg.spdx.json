@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/stb-x64-windows-2023-04-11#1-3ba55208-08f6-4954-b541-b73dc5b24c2f",
+  "documentNamespace": "https://spdx.org/spdxdocs/stb-x64-windows-2023-04-11#1-fa01a6cd-3fe7-4fff-b081-6d206738f924",
   "name": "stb:x64-windows@2023-04-11#1 c6a9499c5ec1bd4d33fe8e6563c152717bedb52493048f2afd6b083c3a912e13",
   "creationInfo": {
     "creators": [
-      "Tool: vcpkg-2024-11-12-eb492805e92a2c14a230f5c3deb3e89f6771c321"
+      "Tool: vcpkg-2024-09-30-ab8988503c7cffabfd440b243a383c0a352a023d"
     ],
-    "created": "2024-11-15T13:51:48Z"
+    "created": "2024-11-15T13:17:12Z"
   },
   "relationships": [
     {
@@ -113,7 +113,7 @@
   ],
   "files": [
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/acd9c2bf96a3e32fbf629b1bfd6cba4827761069/FindStb.cmake",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/acd9c2bf96a3e32fbf629b1bfd6cba4827761069/FindStb.cmake",
       "SPDXID": "SPDXRef-file-0",
       "checksums": [
         {
@@ -125,7 +125,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/acd9c2bf96a3e32fbf629b1bfd6cba4827761069/portfile.cmake",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/acd9c2bf96a3e32fbf629b1bfd6cba4827761069/portfile.cmake",
       "SPDXID": "SPDXRef-file-1",
       "checksums": [
         {
@@ -137,7 +137,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/acd9c2bf96a3e32fbf629b1bfd6cba4827761069/usage",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/acd9c2bf96a3e32fbf629b1bfd6cba4827761069/usage",
       "SPDXID": "SPDXRef-file-2",
       "checksums": [
         {
@@ -149,7 +149,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/acd9c2bf96a3e32fbf629b1bfd6cba4827761069/vcpkg-cmake-wrapper.cmake",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/acd9c2bf96a3e32fbf629b1bfd6cba4827761069/vcpkg-cmake-wrapper.cmake",
       "SPDXID": "SPDXRef-file-3",
       "checksums": [
         {
@@ -161,7 +161,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/acd9c2bf96a3e32fbf629b1bfd6cba4827761069/vcpkg.json",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/acd9c2bf96a3e32fbf629b1bfd6cba4827761069/vcpkg.json",
       "SPDXID": "SPDXRef-file-4",
       "checksums": [
         {

@@ -3,6 +3,6 @@ Version: 2.6.1
 Depends: freetype, libflac, libogg, libvorbis, openal-soft, opengl, stb, vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-windows
 Multi-Arch: same
-Abi: dd0a7dee9009dac00c4fbed0fc4330e9479d26d199eea6d2ca065f55a60dfca0
+Abi: 7e4bf1a70d1ae8b961eb3c0562ea934f4a379022996053065b714568c08af9b8
 Description: Simple and fast multimedia library
 Status: install ok half-installed

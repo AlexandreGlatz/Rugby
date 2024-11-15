@@ -1,15 +1,11 @@
 x64-windows/
 x64-windows/bin/
 x64-windows/bin/FLAC++.dll
-x64-windows/bin/FLAC++.pdb
 x64-windows/bin/FLAC.dll
-x64-windows/bin/FLAC.pdb
 x64-windows/debug/
 x64-windows/debug/bin/
 x64-windows/debug/bin/FLAC++.dll
-x64-windows/debug/bin/FLAC++.pdb
 x64-windows/debug/bin/FLAC.dll
-x64-windows/debug/bin/FLAC.pdb
 x64-windows/debug/lib/
 x64-windows/debug/lib/FLAC++.lib
 x64-windows/debug/lib/FLAC.lib

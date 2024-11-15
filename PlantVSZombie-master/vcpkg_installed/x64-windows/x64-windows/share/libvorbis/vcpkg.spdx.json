@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/libvorbis-x64-windows-1.3.7#3-f17914d8-9873-4633-b4ba-863f0c3b9834",
-  "name": "libvorbis:x64-windows@1.3.7#3 1c18a9f40908c633b92bb669e76035e9bf77559d87bbfb6307d7e6bb877f17cc",
+  "documentNamespace": "https://spdx.org/spdxdocs/libvorbis-x64-windows-1.3.7#3-b9a9f17d-69dd-41d9-bacd-4dbfac0cf989",
+  "name": "libvorbis:x64-windows@1.3.7#3 abcc5796b43a59c4573b97020624ec385ef1d9d409bdf8c08539f140d90318f5",
   "creationInfo": {
     "creators": [
-      "Tool: vcpkg-2024-11-12-eb492805e92a2c14a230f5c3deb3e89f6771c321"
+      "Tool: vcpkg-2024-09-30-ab8988503c7cffabfd440b243a383c0a352a023d"
     ],
-    "created": "2024-11-15T13:53:01Z"
+    "created": "2024-11-15T13:18:27Z"
   },
   "relationships": [
     {
@@ -109,7 +109,7 @@
     {
       "name": "libvorbis:x64-windows",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "1c18a9f40908c633b92bb669e76035e9bf77559d87bbfb6307d7e6bb877f17cc",
+      "versionInfo": "abcc5796b43a59c4573b97020624ec385ef1d9d409bdf8c08539f140d90318f5",
       "downloadLocation": "NONE",
       "licenseConcluded": "BSD-3-Clause",
       "licenseDeclared": "NOASSERTION",
@@ -133,7 +133,7 @@
   ],
   "files": [
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/0001-Dont-export-vorbisenc-functions.patch",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/0001-Dont-export-vorbisenc-functions.patch",
       "SPDXID": "SPDXRef-file-0",
       "checksums": [
         {
@@ -145,7 +145,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/0002-Fixup-pkgconfig-libs.patch",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/0002-Fixup-pkgconfig-libs.patch",
       "SPDXID": "SPDXRef-file-1",
       "checksums": [
         {
@@ -157,7 +157,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/0003-def-mingw-compat.patch",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/0003-def-mingw-compat.patch",
       "SPDXID": "SPDXRef-file-2",
       "checksums": [
         {
@@ -169,7 +169,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/0004-ogg-find-dependency.patch",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/0004-ogg-find-dependency.patch",
       "SPDXID": "SPDXRef-file-3",
       "checksums": [
         {
@@ -181,7 +181,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/portfile.cmake",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/portfile.cmake",
       "SPDXID": "SPDXRef-file-4",
       "checksums": [
         {
@@ -193,7 +193,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/usage",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/usage",
       "SPDXID": "SPDXRef-file-5",
       "checksums": [
         {
@@ -205,7 +205,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/aglatz/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/vcpkg.json",
+      "fileName": "./C:/Users/lduperray/AppData/Local/vcpkg/registries/git-trees/23d11198ff2df7a3af54f1c4645ef71a141f2a85/vcpkg.json",
       "SPDXID": "SPDXRef-file-6",
       "checksums": [
         {
