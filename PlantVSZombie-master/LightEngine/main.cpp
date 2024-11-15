@@ -8,13 +8,15 @@
 #include <cstdlib>
 #include <crtdbg.h>
 
+#include "RugbyScene.h"
+
 int main() 
 {
     GameManager* pInstance = GameManager::Get();
 
 	pInstance->CreateWindow(1280, 720, "PVZ");
 	
-	pInstance->LaunchScene<GameScene>();
+	pInstance->LaunchScene<RugbyScene>();
 
 	return 0;
 }
