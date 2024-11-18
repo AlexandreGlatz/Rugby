@@ -20,16 +20,13 @@ void RugbyScene::OnInitialize()
 
 	Player* m_team1[3];
 	Player* m_team2[3];
-	Ball* m_ball[1];
 
 	for (int i = 0; i < 3; i++)
 	{
 		m_team1[i] = CreateEntity<Player>(playerRadius, sf::Color::Green);
 		m_team1[i]->SetPosition(startX - 20, startY, 0.5f, 0.5f);
 		m_team2[i] = CreateEntity<Player>(playerRadius, sf::Color::Red);
-		m_team2[i]->SetPosition(width + startX - 150, startY, 0.5f, 0.5f);
-
-		m_ball[0] = CreateEntity<Ball>(10, sf::Color::Black);
+		m_team2[i]->SetPosition(width + startX - 200, startY, 0.5f, 0.5f);
 
 		float xMin = startX + playerHeight;
 		float yMin = startY - playerRadius;

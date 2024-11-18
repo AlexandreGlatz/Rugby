@@ -12,8 +12,7 @@ void BallAction_Idle::Start(Ball* pBall)
 
 void BallAction_Idle::Update(Ball* pBall)
 {
-	pBall->playerWithBall;
-	pBall->SetPosition(pBall->playerWithBall->GetPosition(0.5f, 0.5f).x, pBall->playerWithBall->GetPosition(0.5f, 0.5f).y, 0.5f, 0.5f);
+	//
 }
 
 void BallAction_Idle::End(Ball* pBall)

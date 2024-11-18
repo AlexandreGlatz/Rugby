@@ -13,7 +13,6 @@ class Ball : public Entity
 public:
     Ball(float radius, const sf::Color& color);
     float mPassCadence = 1.0f;
-    Player* playerWithBall;
 
 protected:
     void OnUpdate() override;
